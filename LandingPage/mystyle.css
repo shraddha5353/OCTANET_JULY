@@ -1,0 +1,238 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6600;
+}
+
+.search-bar {
+    display: flex;
+    flex: 1;
+    margin: 0 20px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.user-menu a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.main-nav ul li {
+    margin: 0 20px;
+}
+
+.main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner-slider {
+    position: relative;
+    text-align: center;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.categories,
+.featured-books,
+.book-of-the-month,
+.top-sellers,
+.reviews {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.categories h2,
+.featured-books h2,
+.book-of-the-month h2,
+.top-sellers h2,
+.reviews h2 {
+    margin-bottom: 20px;
+    color: #ff6600;
+}
+
+.category-grid,
+.book-grid,
+.seller-grid,
+.review-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.category,
+.book,
+.seller,
+.review {
+    margin: 10px;
+    flex-basis: 30%;
+    text-align: left;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.category img,
+.book img,
+.seller img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.book-of-the-month-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.book-of-the-month img {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.book-of-the-month-text {
+    max-width: 50%;
+}
+
+.btn {
+    display: block;
+    background-color: #ff6600;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #444;
+}
+
+.footer-top .newsletter {
+    flex: 1;
+    text-align: left;
+}
+
+.footer-top .newsletter form {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-top .newsletter input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-top .newsletter button {
+    padding: 10px;
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.footer-top .footer-links {
+    flex: 1;
+    text-align: right;
+}
+
+.footer-top .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
